@@ -1,0 +1,75 @@
+/*===========================================*/
+/*            Layout Styles                  */
+/*===========================================*/
+
+body {
+  min-height: 100%;
+  padding-top: 56px;
+}
+.navbar-expand > .container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+main {
+  padding: 2rem 0;
+}
+
+.page-title {
+  margin-top:0;
+  margin-bottom: 2rem;
+}
+
+/*===========================================*/
+/*            Cart Badeg Styles              */
+/*===========================================*/
+
+.cart-nav {
+  position: relative;
+}
+.cart-nav > span {
+    width: 20px;
+    height: 20px;
+    background-color: #f1f1f1;
+    color: #000;
+    position: absolute;
+    top: 11px;
+    right: -16px;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+}
+
+/*===========================================*/
+/*            Table Styles                   */
+/*===========================================*/
+
+.table-courses tbody > tr > td {
+  vertical-align: middle;
+}
+.table-courses tbody > tr > td:last-child{
+  width:150px;
+}
+.table-courses tbody > tr > td:nth-of-type(5){
+  width: 130px;
+}
+.table-courses tbody > tr > td > .btn-cart {
+  display: none;
+}
+.table-courses tbody > tr:hover {
+  cursor: pointer;
+}
+.table-courses tbody > tr:hover > td > .btn-cart {
+  display: inline-block;
+}
+
+
+/*===========================================*/
+/*            Cart Panel Styles              */
+/*===========================================*/
+
+.cart-list-panel > li > img {
+  width:30px;
+  margin-right: 10px;
+}
